@@ -1,1 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #070816, #0f1230);
+  color: white;
+}
 
+.container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  background: #1b1d3a;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+.tab {
+  flex: 1;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+.tab.active {
+  color: white;
+  border-bottom: 3px solid #00ff88;
+}
+
+.card {
+  background: #12142b;
+  padding: 40px 20px;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+h1 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.sub {
+  color: #00ff88;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.timer span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.timer small {
+  display: block;
+  color: #00ff88;
+  margin-top: 5px;
+}
