@@ -50,9 +50,9 @@ function atualizarTempo() {
 
   <div class="tabs">
     <button class="tab active" data-target="1">Passar no enem</button>
-    <button class="tab" data-target="2">Aprender um novo idioma</button>
-    <button class="tab" data-target="3">Passar na faculdade</button>
-    <button class="tab" data-target="4">Começar a trabalhar</button>
+    <button class="tab active" data-target="2">Aprender um novo idioma</button>
+    <button class="tab active" data-target="3">Passar na faculdade</button>
+    <button class="tab active" data-target="4">Começar a trabalhar</button>
   </div>
 
   <div class="card">
