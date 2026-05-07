@@ -2,9 +2,9 @@ const titulo = document.getElementById("titulo");
 
 const datas = [
   {texto: "Passar no enem", data: "2026-11-11"},
-  {texto: "Aprender tailandês", data: "2026-07-25"},
+  {texto: "Aprender um novo idioma", data: "2026-07-25"},
   {texto: "Passar na faculdade", data: "2027-02-01"},
-  {texto: "Entrar na área de trabalho", data: "2027-02-05"}
+  {texto: "Começar a trabalhar", data: "2026-12-30"}
 ];
 
 let atual = 0;
@@ -36,10 +36,6 @@ function atualizarTempo() {
   document.getElementById("min").innerText = min;
   document.getElementById("seg").innerText = seg;
 }
-
-Postada por DANIELA DE JESUS MEDINA MARTINEZ
-DANIELA DE JESUS MEDINA MARTINEZ
-Criado em: 07:3607:36
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -54,9 +50,9 @@ Criado em: 07:3607:36
 
   <div class="tabs">
     <button class="tab active" data-target="1">Passar no enem</button>
-    <button class="tab" data-target="2">Aprender tailandês</button>
+    <button class="tab" data-target="2">Aprender um novo idioma</button>
     <button class="tab" data-target="3">Passar na faculdade</button>
-    <button class="tab" data-target="4">Entrar na área de trabalho</button>
+    <button class="tab" data-target="4">Começar a trabalhar</button>
   </div>
 
   <div class="card">
